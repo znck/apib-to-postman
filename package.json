@@ -1,0 +1,20 @@
+{
+  "name": "apib-to-postman",
+  "version": "0.0.0",
+  "description": "Convert API blueprint documents to postman collection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Kadyan <hi@znck.me>",
+  "license": "MIT",
+  "dependencies": {
+    "drafter": "^1.2.0",
+    "postman-collection-transformer": "^2.1.5",
+    "sha1": "^1.1.1",
+    "uuid": "^3.1.0"
+  },
+  "bin": {
+    "apib2postman": "./index.js"
+  }
+}

@@ -1,0 +1,46 @@
+dependencies:
+  drafter: 1.2.0
+  sha1: 1.1.1
+  uuid: 3.1.0
+packages:
+  /charenc/0.0.2:
+    resolution:
+      integrity: sha1-wKHS86cJLgN3S/qD8UwPxXkKhmc=
+  /crypt/0.0.2:
+    resolution:
+      integrity: sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs=
+  /drafter.js/2.6.7:
+    resolution:
+      integrity: sha1-WcQ6hYZSc0DLNb3cVBgFWfru8AE=
+  /drafter/1.2.0:
+    dependencies:
+      drafter.js: 2.6.7
+    optionalDependencies:
+      protagonist: 1.6.8
+    resolution:
+      integrity: sha1-9NEeje4fJ/mkBIW4dAxENh6c+Fk=
+  /nan/2.6.2:
+    optional: true
+    resolution:
+      integrity: sha1-5P805slf37WuzAjeZZb0NgWn20U=
+  /protagonist/1.6.8:
+    dependencies:
+      nan: 2.6.2
+    optional: true
+    resolution:
+      integrity: sha1-FtXWMW8bbU5JPslFBjnbw1UDvm4=
+  /sha1/1.1.1:
+    dependencies:
+      charenc: 0.0.2
+      crypt: 0.0.2
+    resolution:
+      integrity: sha1-rdqnqTFo85PxnrKxUJFhjicA+Eg=
+  /uuid/3.1.0:
+    resolution:
+      integrity: sha512-DIWtzUkw04M4k3bf1IcpS2tngXEL26YUD2M0tMDUpnUrz2hgzUBlD55a4FjdLGPvfHxS6uluGWvaVEqgBcVa+g==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapVersion: 3
+specifiers:
+  drafter: ^1.2.0
+  sha1: ^1.1.1
+  uuid: ^3.1.0
